@@ -12,11 +12,8 @@ HTML/CSS/JavaScript/ReactJS practice exercises
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-
     <style>
-
     </style>
-
 </head>
 
 <body class="body">
