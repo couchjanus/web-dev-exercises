@@ -2,7 +2,7 @@
 HTML/CSS/JavaScript/ReactJS practice exercises
 ## Exercises for lecture #8 Блокова модель документа
 
-1. В середині exercises створіть піддирексторію lecture-08. В середині lecture-08 створіть файли index.html та README.md. Відредагуйте файл exercises/lecture-08/index.html
+1. В середині exercises створіть піддиректорію lecture-08. В середині lecture-08 створіть файли index.html та README.md. Відредагуйте файл exercises/lecture-08/index.html
 
 ```html 
 <!DOCTYPE html>
