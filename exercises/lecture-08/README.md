@@ -87,7 +87,7 @@ div{
   background: yellow;
 }
 ```
-6. Обчислити ширину елемента div
+6. Обчислити ширину контенту елемента div
 ```css
 div{
   box-sizing:border-box;
