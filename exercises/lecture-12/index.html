@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic font-size</title>
+  <style>
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+  }
+
+  body {
+    color: #000;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    font-size: clamp(16px, calc(20px + (36 - 20) * (100vw - 768px)/(1920 - 768)), 48px);
+    padding: 1em;
+  }
+
+ .d-block {
+    display: block;
+    width: 100%;
+    padding: 3rem;
+    background-color: blue;
+    color: gold;
+}
+
+/* container */
+.col-3 {
+   width: 100%;
+   display: flex;
+   column-gap:1rem;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: center;
+}
+@media (min-width: 992px) {
+  .col-3 {
+       justify-content: space-between;
+  }
+.col-3 > * {
+    width:calc((100% - 2rem) / 3);
+ }
+}
+</style>
+</head>
+
+<body translate="no">
+<p>
+  This text has a font size of 20px at viewport width of 768px and font size of 36px when viewport width is 1920px. But if the viewport width is less than 768px, the font-size won't get lower than 16px and if the viewport width is more than 1920px font size will stop scaling at 48px.
+</p>
+
+<div class="col-3">
+  <div class="d-block">1</div>
+  <div class="d-block">2</div>
+  <div class="d-block">3</div>
+</div>
+
+
+</body>
+</html>

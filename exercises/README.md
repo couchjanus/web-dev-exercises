@@ -12,6 +12,8 @@ HTML/CSS/JavaScript/ReactJS practice exercises
 - This is the *[Exercises for lecture-07](https://github.com/couchjanus/web-dev-exercises/tree/main/exercises/lecture-07)*.
 - This is the *[Exercises for lecture-08](https://github.com/couchjanus/web-dev-exercises/tree/main/exercises/lecture-08)*.
 - This is the *[Exercises for lecture-09](https://github.com/couchjanus/web-dev-exercises/tree/main/exercises/lecture-09)*.
-
+- This is the *[Exercises for lecture-10](https://github.com/couchjanus/web-dev-exercises/tree/main/exercises/lecture-10)*.
+- This is the *[Exercises for lecture-11](https://github.com/couchjanus/web-dev-exercises/tree/main/exercises/lecture-11)*.
+- This is the *[Exercises for lecture-12](https://github.com/couchjanus/web-dev-exercises/tree/main/exercises/lecture-12)*.
 ## LICENSE
 This repository follows the [MIT License](https://github.com/couchjanus/web-dev-exercises/tree/main/LICENSE).
