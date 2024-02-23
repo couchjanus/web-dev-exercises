@@ -52,6 +52,9 @@ HTML/CSS/JavaScript/ReactJS practice exercises
         main div:nth-of-type(12) {
             background-color: #38c931;
         }
+        main div:nth-of-type(13) {
+            background-color: #c231c9;
+        }
 
         main {
             margin: 2vw 0;
@@ -81,6 +84,7 @@ HTML/CSS/JavaScript/ReactJS practice exercises
     <div>10</div>
     <div>11</div>
     <div>12</div>
+    <div>13</div>
   </main>
 
 </body>
