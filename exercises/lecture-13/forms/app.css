@@ -1,0 +1,131 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --form-color: #44c7f5; 
+  --active-color: #ff574e;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  background: lightgray;
+}
+
+.wrapper {
+
+}
+
+.form-container {
+}
+
+.col-left,
+.col-right {
+}
+
+.col-left {
+  background: var(--form-color);
+}
+
+.col-right {
+  padding: 60px 30px;
+  margin-left: -10%;
+}
+
+.login-text {
+  position: relative;
+  width: 100%;
+  color: white;
+}
+
+.login-text h2 {
+  margin: 0 0 15px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.login-text p {
+  margin: 0 0 20px 0;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.login-text .btn {
+  display: inline-block;
+  padding: 7px 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 30px;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  background-color: var(--form-color); 
+}
+
+.login-text .btn:hover {
+  color: var(--form-color);
+  background-color: white;
+}
+
+.login-form {
+  position: relative;
+  width: 100%;
+}
+
+.login-form h2 {
+  margin: 0 0 15px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.login-form p {
+  margin: 0 0 10px 0;
+  text-align: left;
+  font-size: .9rem;
+}
+
+.login-form p:last-child {
+  margin: 0;
+  padding-top: 3px; 
+}
+
+.login-form p a {
+  color: var(--form-color);
+  font-size: .8rem;
+  text-decoration: none;
+}
+
+.login-form label {
+  display: block;
+  width: 100%;
+  margin-bottom: 2px;
+  letter-spacing: .5px;
+}
+
+.login-form p:last-child label {
+  width: 60%;
+  float: left;
+}
+
+.login-form label span {
+  color: var(--active-color);
+  padding-left: 2px;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  height: calc((35/16)*1rem);
+  padding: 0 10px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+
+
+@media(max-width: 35rem) {
+  
+}
