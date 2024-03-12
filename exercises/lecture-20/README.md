@@ -2,7 +2,7 @@
 HTML/CSS/JavaScript/ReactJS practice exercises
 ## Exercises for lecture №20 - Об'єкти
 
-В середині exercises створіть піддирексторію lecture-20. В середині lecture-20 створіть файли index.html та main.js
+В середині exercises створіть піддиректорію lecture-20. В середині lecture-20 створіть файли index.html та main.js
 
 ```html
 
@@ -34,9 +34,9 @@ HTML/CSS/JavaScript/ReactJS practice exercises
 
 
 
-5. Створити функцію-шаблон createPerson, що приймає аргумент name та повертає новий об'єкт з властивістю name, та методом introduceSelf. Створити за допомогою createPerson 2 екземпляри об'єкта.
+5. Створити функцію-шаблон createPerson, що приймає аргумент name та повертає новий об'єкт з властивістю name та методом introduceSelf. Створити за допомогою createPerson 2 екземпляри об'єкта.
 
-6. Створити функцію-конструктор Person, що приймає аргумент name та повертає новий об'єкт з властивістю name, та методом introduceSelf. Створити за допомогою Person 2 екземпляри об'єкта mary та tom.
+6. Створити функцію-конструктор Person, що приймає аргумент name та повертає новий об'єкт з властивістю name та методом introduceSelf. Створити за допомогою Person 2 екземпляри об'єкта mary та tom.
 
   - визначити, чи містить об'єкт mary властивість під назвою prop.
 
