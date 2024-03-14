@@ -2,7 +2,7 @@
 HTML/CSS/JavaScript/ReactJS practice exercises
 ## Exercises for lecture №20 - Array
 
-В середині exercises створіть піддирексторію lecture-20. В середині lecture-20 створіть файли index.html та app.js
+В середині exercises створіть піддиректорію lecture-20. В середині lecture-20 створіть файли index.html та app.js
 
 ```html
 <!DOCTYPE html>
@@ -28,14 +28,14 @@ const fruits = 'apple banana cantaloupe blueberries grapefruit';
 ```
 1. Перетворити рядок fruits у масив. Результат зберегти у масиві fruits.
 
-2. Використовуючи цикл for вивести на консоль список елементів з масиву fruits.  
+2. Використовуючи цикл for, вивести на консоль список елементів з масиву fruits.  
 
-3. Використовуючи цикл while вивести на консоль список елементів з масиву fruits.  
+3. Використовуючи цикл while, вивести на консоль список елементів з масиву fruits.  
 
 
-4. Використовуючи цикл do...while вивести на консоль список елементів з масиву fruits.  
+4. Використовуючи цикл do...while, вивести на консоль список елементів з масиву fruits.  
 
-5. Використовуючи цикл for...of вивести на консоль список елементів з масиву fruits.  
+5. Використовуючи цикл for...of, вивести на консоль список елементів з масиву fruits.  
 
 6. Маємо масив Numbs. 
 
@@ -43,7 +43,7 @@ const fruits = 'apple banana cantaloupe blueberries grapefruit';
 const Numbs = [1,2,3,4,5,6,7,8,9,10];
 
 ```
-Використовуючи цикл for вивести на консоль парні елементи з масиву Numbs.  
+Використовуючи цикл for, вивести на консоль парні елементи з масиву Numbs.  
 
 
 7. Маємо масив names:
@@ -111,5 +111,5 @@ const names = ['Batman', 'Catwoman', 'Joker', 'Bane'];
 ```js
 const names = ['Batman', 'Catwoman', 'Joker', 'Bane'];
 ```
-Перевірити чи існує рядок 'Alfred' у масиві names, і якщо існує, видалити його з масиву. 
+Перевірити, чи існує рядок 'Alfred' у масиві names, і якщо існує, видалити його з масиву. 
 
