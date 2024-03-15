@@ -1,0 +1,23 @@
+.first {
+    color: red;
+}
+.second {
+    color: blue;
+}
+.third {
+    color: green;
+    background-color: yellow;
+}
+
+.fourth {
+    color: gray;
+    
+}
+.border {
+    border: solid red 1px;
+}
+
+.title {
+    padding: 1rem 2rem;
+    border: double 2px violet;
+}
