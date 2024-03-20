@@ -2,7 +2,7 @@
 HTML/CSS/JavaScript/ReactJS practice exercises
 ## Exercises for lecture №20 - Array
 
-В середині exercises створіть піддиректорію lecture-20. В середині lecture-20 створіть файли index.html та app.js
+В середині exercises створіть піддиректорію lecture-21. В середині lecture-21 створіть файли index.html та app.js
 
 ```html
 <!DOCTYPE html>
