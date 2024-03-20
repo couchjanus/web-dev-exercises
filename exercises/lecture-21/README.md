@@ -1,6 +1,6 @@
 # web-dev-exercises
 HTML/CSS/JavaScript/ReactJS practice exercises
-## Exercises for lecture №20 - Array
+## Exercises for lecture №21 - Array
 
 В середині exercises створіть піддиректорію lecture-21. В середині lecture-21 створіть файли index.html та app.js
 
