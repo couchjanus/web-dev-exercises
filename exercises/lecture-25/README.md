@@ -26,7 +26,7 @@ HTML/CSS/JavaScript/ReactJS practice exercises
 const list = ['html', 'css', 'javascript', 'react.js'];
 ```
 
-Використовуючи метод createElement, створити невпорядкований список на основі масиву list та вставте його на сторінку. 
+Використовуючи метод createElement, створити невпорядкований список на основі масиву list та вставити його на сторінку. 
 
 
 2. Маємо масив listWithHref
