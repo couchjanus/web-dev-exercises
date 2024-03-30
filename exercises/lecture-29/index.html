@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <h1>Check Auth</h1>
+    <button class="check-auth">Check Auth</button>  
+
+    <dialog id="dialogBox">
+      <header>
+        <h2 class="header">Something went wrong</h2>
+        <button onclick="closeDialog()" id="closeDialogHeader">&#x2716</button>
+      </header>
+
+      <section>
+        <p class="message"></p>
+      </section>
+
+      <footer>
+        <button onclick="closeDialog()" id="closeDialogFooter">Close dialog</button>
+        <button id="signButton">Login or sign up here</button>
+      </footer>
+    </dialog>
+    
+  
+    <script src="app.js"></script>
+</body>
+</html>
