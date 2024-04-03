@@ -23,7 +23,7 @@ class AuthException extends Error {
 
 Створіть змінну checkAuth, яка дорівнює результату пошуку селектора з класом check-auth у файлі index.html.
 
-За допомогою addEventListener, виконайте обробку події click на змінній checkAuth. Функція зворотного зі'язу обробки цієї події повинна запускати блок try { } catch(e) {}. 
+За допомогою addEventListener, виконайте обробку події click на змінній checkAuth. Функція зворотного зв'язку обробки цієї події повинна запускати блок try { } catch(e) {}. 
 
 У блоці try { } потрібно перевіряти результат, що повертає функція isAuth(). Якщо результат повернення дорівнює false, за допомогою оператора throw викинути виняток AuthException('FORBIDDEN', 'You don\'t have access to this page'). 
 
