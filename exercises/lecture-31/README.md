@@ -17,7 +17,7 @@ const url = "https://jsonplaceholder.typicode.com/posts";
 const template = (item) => `
 <h3>${item.title}</h3>
 <div>${item.body}</div>
-<p>Author: <strong><span class="author" data-id="${item.userId}"></stan></strong></p>
+<p>Author: <strong><span class="author" data-id="${item.userId}"></span></strong></p>
 `;
 
 const xhrPromise = (method, url) => {
