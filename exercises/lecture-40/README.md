@@ -6,5 +6,5 @@ HTML/CSS/JavaScript/ReactJS practice exercises
 
 Створити сторінку src/pages/chat.jsx
 Написати код React для підключення до OpenAI API
-Підключити сторінку до системи маршрутів проекту.
+Підключити сторінку до системи маршрутів проєкту.
 
